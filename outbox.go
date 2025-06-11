@@ -27,8 +27,7 @@ const (
 	CommandQueue Destination = "command_queue"
 	Mailman      Destination = "mailman"
 
-	EventsRoute  Route = "events"
-	MailmanRoute Route = "node:finp2p:outbox"
+	EventsRoute Route = "events"
 )
 
 func Enqueue(ctx context.Context, schema string, msg Message, enqueueOptions ...EnqueueOption) error {
