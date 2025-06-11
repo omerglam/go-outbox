@@ -1,5 +1,8 @@
 ## go-outbox
 
+![go_outbox](https://github.com/user-attachments/assets/a2094665-2069-41f2-965d-876c7137c53e)
+
+
 This package provides facilities for implementing the [Transactional Outbox Pattern](https://microservices.io/patterns/data/transactional-outbox.html) for reliable message passing 
 
 ### Database schema setup
